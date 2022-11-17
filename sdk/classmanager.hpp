@@ -46,7 +46,7 @@ public:
 	}
 
 	bool IsSpawnProtected() {
-		return this->GetValue<bool>("SpawnProtected");
+		return this->GetValue<bool>("_spawnProtected");
 	}
 	//Team GetTeam() {
 	//	auto role = GetRole();
